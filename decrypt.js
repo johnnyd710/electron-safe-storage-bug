@@ -3,8 +3,9 @@ const path = require('path');
 const fs = require('fs');
 
 async function main() {
-  const userDataPath = path.join(__dirname, 'userData1'); // uncomment this line to see it work (3/4)
-  app.setPath('userData', userDataPath); // uncomment this line to see it work (4/4)
+  // const userDataPath = path.join(__dirname, 'userData1'); // uncomment this lines to see it work
+  const userDataPath = path.join(__dirname, 'userData2'); // comment this line to see it work
+  app.setPath('userData', userDataPath); 
 
   await app.whenReady();
 

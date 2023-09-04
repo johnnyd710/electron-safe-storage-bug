@@ -9,10 +9,3 @@ To reproduce the bug, run the following commands:
 2. pnpm encrypt
 3. pnpm decrypt
 ```
-
-To see it work, comment out the following lines in `encrypt.js` and `decrypt.js`:
-
-```js
-  const userDataPath = path.join(__dirname, 'userData1');
-  app.setPath('userData', userDataPath);
-```
